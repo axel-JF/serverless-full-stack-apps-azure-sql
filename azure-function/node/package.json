@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "check-quality" : "eslint ./ --nofix --max-warnings 0",
+    "check-quality": "eslint ./ --no-fix --max-warnings 0",
     "lint": "eslint ./",
     "prettier": "prettier --write ./"
   },
@@ -15,5 +15,3 @@
     "prettier": "^2.4.1"
   }
 }
-
-
